@@ -7,7 +7,7 @@ If you do not want to clone/download full repo then just download these two file
 1. app.js
 2. input.csv
 
-Then open command prompt(terminal) in same directory where you store those two files and install those packeges:
+Then open command prompt(terminal) in same directory where you stored those two files. Now,install those packeges:
 1. `npm init -y`
 2. `npm install csvtojson json2csv --save`
 3. `npm i convert-array-to-csv -S`
