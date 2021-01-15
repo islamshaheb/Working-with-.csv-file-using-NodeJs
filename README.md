@@ -8,7 +8,7 @@ Now. write `node app.js` and hit enter. Done. Code Has been executed.See the out
 
 If you do not want to clone/download full repo then just download these two files from them in same directory.
 1. app.js
-2.input.csv
+2. input.csv
 
 Then open command prompt(terminal) in same directory where you store those two files and install those packeges:
 1. `npm init -y`
