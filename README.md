@@ -2,10 +2,7 @@
 For running this code you need to install Node Js in your machine.
 For installing NodeJs in your local machine Just go [this Website ](https://nodejs.org/en/download/ "NodeJS") and download and install it..
 
-After installation you need to clone this full repo in your local machine.
-After that open command prompt(terminal) in the same directory where you clone this project.
-Now. write `node app.js` and hit enter. Done. Code Has been executed.See the output
-
+After installation you need to download this full repo in your local machine.
 If you do not want to clone/download full repo then just download these two files from them in same directory.
 1. app.js
 2. input.csv
