@@ -1,0 +1,19 @@
+{
+  "name": "NodeJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "convert-array-to-csv": "^2.0.0",
+    "csv-parser": "^3.0.0",
+    "csvtojson": "^2.0.10",
+    "json2csv": "^5.0.5",
+    "random-words": "^1.1.1"
+  }
+}
