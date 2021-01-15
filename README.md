@@ -13,4 +13,8 @@ If you do not want to clone/download full reop then just download two file from 
 Then open command prompt(terminal) and install those packeges:
 1. `npm init -y`
 2. `npm install csvtojson json2csv --save`
+3. `npm i convert-array-to-csv -S`
+4. `npm install csv-parser`
 
+
+Now. write `node app.js` and hit enter. Done. Code Has been executed.See the output
