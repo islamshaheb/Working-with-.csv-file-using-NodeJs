@@ -11,7 +11,6 @@ If you do not want to clone/download full reop then just download two file from 
 2.input.csv
 
 Then open command prompt(terminal) and install packege:'
-
-1.`npm init -7`
+1. `npm init -7`
 2. `npm install csvtojson json2csv --save`
 
