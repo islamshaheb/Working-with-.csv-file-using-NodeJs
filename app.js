@@ -19,8 +19,11 @@ csvtojson ()
 
         //Loop to create 2D array using 1D array
         list[i] = new Array(5);
-        list[i][0] = json[i].date; list[i][1] = json[i].shift;list[i][2] = json[i].volunteerId;
-        list[i][3] = json[i].volunteerName;list[i][4] = json[i].shiftReason;
+        list[i][0] = json[i].date;
+        list[i][1] = json[i].shift;
+        list[i][2] = json[i].volunteerId;
+        list[i][3] = json[i].volunteerName;
+        list[i][4] = json[i].shiftReason;
         
         /*
          insert user in "alluser", if  this user already exist there
@@ -75,7 +78,7 @@ csvtojson ()
                 temp=temp.concat(list[k][0]);
                 temp=temp.concat('+');
                 temp=temp.concat(list[k][1]);
-                if(temp == cur_date_shift && list[k][3]!=alluser[i])
+                if(temp == cur_date_shift && list[k][3] != alluser[i])
                 {
                     var pre = 0;
                     for(let l=0; l<graph_rep[alluser[i]].length; l++)
